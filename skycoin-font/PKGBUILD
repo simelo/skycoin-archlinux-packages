@@ -1,0 +1,17 @@
+# Maintainer: Moses Narrow <moe_narrow@use.startmail.com>
+
+pkgname=skycoin-font
+pkgver=1
+pkgrel=1
+pkgdesc="Skycoin sans font"
+url="https://skycoin.net"
+arch=(any)
+makedepends=('unzip')
+source=("https://downloads.skycoin.net/branding/Skycoin-Sans.zip")
+sha256sums=('SKIP')
+
+package() {
+  cd $pkgname
+  install -d "$pkgdir/usr/share/$pkgname"
+  install -m644 *.otf "$pkgdir/usr/share/$pkgname"
+}
