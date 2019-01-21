@@ -1,0 +1,62 @@
+:: Updating git submodules
+:: Building skywire-manager binary
+github.com/skycoin/skywire (download)
+github.com/skycoin/skywire/pkg/manager
+github.com/skycoin/skywire/vendor/golang.org/x/crypto/blowfish
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/cipher/ripemd160
+github.com/skycoin/skywire/vendor/golang.org/x/crypto/pbkdf2
+github.com/skycoin/skywire/vendor/github.com/klauspost/cpuid
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/cipher/chacha20
+skywire/vendor/golang.org/x/sys/unix
+skywire/vendor/github.com/op/go-logging
+github.com/skycoin/skywire/vendor/golang.org/x/sys/unix
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/cipher/base58
+github.com/skycoin/skywire/vendor/github.com/op/go-logging
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/cipher/secp256k1-go/secp256k1-go2
+github.com/skycoin/skywire/vendor/github.com/google/btree
+github.com/skycoin/skywire/vendor/github.com/astaxie/beego/utils
+skywire/vendor/github.com/skycoin/skycoin/src/util/logging
+github.com/skycoin/skywire/vendor/github.com/klauspost/reedsolomon
+skywire/vendor/github.com/skycoin/skycoin/src/util/file
+github.com/skycoin/skywire/vendor/github.com/gorilla/websocket
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/util/logging
+github.com/skycoin/skywire/vendor/github.com/pkg/errors
+github.com/skycoin/skywire/vendor/github.com/astaxie/beego/session
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/util/file
+github.com/skycoin/skywire/vendor/golang.org/x/crypto/bcrypt
+skywire/vendor/golang.org/x/crypto/ssh/terminal
+github.com/skycoin/skywire/vendor/golang.org/x/crypto/ssh/terminal
+github.com/skycoin/skywire/vendor/github.com/oschwald/maxminddb-golang
+skywire/vendor/github.com/sirupsen/logrus
+github.com/skycoin/skywire/vendor/github.com/sirupsen/logrus
+github.com/skycoin/skywire/pkg/net/util
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/cipher/secp256k1-go
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/cipher
+github.com/skycoin/skywire/pkg/net/msg
+github.com/skycoin/skywire/vendor/github.com/skycoin/skycoin/src/cipher/go-bip39
+github.com/skycoin/skywire/pkg/net/conn
+github.com/skycoin/skywire/pkg/net/client
+github.com/skycoin/skywire/pkg/net/server
+github.com/skycoin/skywire/pkg/net/factory
+github.com/skycoin/skywire/pkg/net/skycoin-messenger/factory
+github.com/skycoin/skywire/pkg/net/skycoin-messenger/monitor
+skywire/cmd/skywire-manager
+:: Building skywire-node binary
+github.com/skycoin/skywire/vendor/github.com/kr/pty
+github.com/skycoin/skywire/pkg/node
+github.com/skycoin/skywire/pkg/node/api
+skywire/cmd/skywire-node
+:: Building skywire-socksc binary
+skywire/vendor/golang.org/x/crypto/cast5
+skywire/vendor/golang.org/x/crypto/salsa20/salsa
+skywire/vendor/golang.org/x/crypto/blowfish
+skywire/vendor/github.com/Yawning/chacha20
+github.com/skycoin/skywire/pkg/app
+skywire/vendor/github.com/shadowsocks/shadowsocks-go/shadowsocks
+skywire/cmd/socks/skywire-socksc
+:: Building skywire-sockss binary
+skywire/cmd/socks/skywire-sockss
+:: Building skywire-sshc binary
+skywire/cmd/ssh/skywire-sshc
+:: Building skywire-sshs binary
+skywire/cmd/ssh/skywire-sshs

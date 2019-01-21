@@ -1,0 +1,74 @@
+:: Updating git submodules
+Submodule 'cx-games' (https://github.com/skycoin/cx-games.git) registered for path 'cx-games'
+Cloning into '/build/cx-dev/src/go/src/cx-dev/cx-games'...
+Submodule path 'cx-games': checked out '8e8fb5ed05430f13b2af0f6c65f65d1097b869a7'
+:: Building binaries
+NOTE:\tMake sure to add CX executable's directory at /build/cx-dev/src/go/bin/ to your $PATH environment variable
+NOTE:\tRepository github.com/skycoin/skycoin is not present in /build/cx-dev/src/go
+NOTE:\tDownloading the repository and installing the package via 'go get github.com/skycoin/skycoin/...'
+OK:\tPackage github.com/skycoin/skycoin was installed successfully
+NOTE:\tRepository github.com/go-gl/gl/v2.1/gl is not present in /build/cx-dev/src/go
+NOTE:\tInstalling it via 'go get github.com/go-gl/gl/v2.1/gl'
+OK:\tRepository github.com/go-gl/gl/v2.1/gl was installed successfully
+NOTE:\tRepository github.com/go-gl/glfw/v3.2/glfw is not present in /build/cx-dev/src/go
+NOTE:\tInstalling it via 'go get github.com/go-gl/glfw/v3.2/glfw'
+OK:\tRepository github.com/go-gl/glfw/v3.2/glfw was installed successfully
+NOTE:\tRepository src/github.com/go-gl/gltext is not present in /build/cx-dev/src/go
+NOTE:\tInstalling it via 'go get github.com/go-gl/gltext'
+OK:\tRepository github.com/go-gl/gltext was installed successfully
+NOTE:\tRepository github.com/blynn/nex is not present in /build/cx-dev/src/go
+NOTE:\tInstalling it via 'go get github.com/blynn/nex'
+OK:\tRepository github.com/blynn/nex was installed successfully
+NOTE:\tRepository github.com/cznic/goyacc is not present in /build/cx-dev/src/go
+NOTE:\tInstalling it via 'go get github.com/cznic/goyacc'
+OK:\tRepository github.com/cznic/goyacc was installed successfully
+NOTE:\tRepository github.com/skycoin/cx is not present in /build/cx-dev/src/go
+NOTE:\tDownloading the repository and installing the package via 'go get github.com/skycoin/cx/...'
+warning: ignoring symlink /build/cx-dev/src/go/src/github.com/skycoin/cx/ide/cmd/leaps/www
+warning: ignoring symlink /build/cx-dev/src/go/src/github.com/skycoin/cx/ide/cmd/leaps/www
+# github.com/skycoin/cx/cxgo
+../github.com/skycoin/cx/cxgo/cxtok.go:10:10: undefined: yySymType
+../github.com/skycoin/cx/cxgo/cxtok.go:12:9: undefined: NewLexer
+../github.com/skycoin/cx/cxgo/cxtok.go:20:33: undefined: yySymType
+../github.com/skycoin/cx/cxgo/cxtok.go:22:7: undefined: BYTE_LITERAL
+../github.com/skycoin/cx/cxgo/cxtok.go:24:7: undefined: BOOLEAN_LITERAL
+../github.com/skycoin/cx/cxgo/cxtok.go:26:7: undefined: INT_LITERAL
+../github.com/skycoin/cx/cxgo/cxtok.go:28:7: undefined: LONG_LITERAL
+../github.com/skycoin/cx/cxgo/cxtok.go:30:7: undefined: FLOAT_LITERAL
+../github.com/skycoin/cx/cxgo/cxtok.go:32:7: undefined: DOUBLE_LITERAL
+../github.com/skycoin/cx/cxgo/cxtok.go:34:7: undefined: AFF
+../github.com/skycoin/cx/cxgo/cxtok.go:34:7: too many errors
+# github.com/skycoin/cx/cx
+../github.com/skycoin/cx/cx/constcodes.go:457:73: undefined: OS_RUN_SUCCESS
+../github.com/skycoin/cx/cx/constcodes.go:458:77: undefined: OS_RUN_EMPTY_CMD
+../github.com/skycoin/cx/cx/constcodes.go:459:69: undefined: OS_RUN_PANIC
+../github.com/skycoin/cx/cx/constcodes.go:460:83: undefined: OS_RUN_START_FAILED
+../github.com/skycoin/cx/cx/constcodes.go:461:81: undefined: OS_RUN_WAIT_FAILED
+../github.com/skycoin/cx/cx/constcodes.go:462:73: undefined: OS_RUN_TIMEOUT
+# github.com/skycoin/cx/ide/lib/curator
+../github.com/skycoin/cx/ide/lib/curator/curator.go:174:8: cannot use c.store (type "github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/store".Type) as type "github.com/Jeffail/leaps/lib/store".Type in argument to binder.New:
+	"github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/store".Type does not implement "github.com/Jeffail/leaps/lib/store".Type (wrong type for Create method)
+		have Create("github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/store".Document) error
+		want Create("github.com/Jeffail/leaps/lib/store".Document) error
+../github.com/skycoin/cx/ide/lib/curator/curator.go:174:53: cannot use c.log (type "github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/util/service/log".Modular) as type "github.com/Jeffail/leaps/lib/util/service/log".Modular in argument to binder.New:
+	"github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/util/service/log".Modular does not implement "github.com/Jeffail/leaps/lib/util/service/log".Modular (wrong type for NewModule method)
+		have NewModule(string) "github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/util/service/log".Modular
+		want NewModule(string) "github.com/Jeffail/leaps/lib/util/service/log".Modular
+../github.com/skycoin/cx/ide/lib/curator/curator.go:174:60: cannot use auditor (type "github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/audit".Auditor) as type "github.com/Jeffail/leaps/lib/audit".Auditor in argument to binder.New:
+	"github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/audit".Auditor does not implement "github.com/Jeffail/leaps/lib/audit".Auditor (wrong type for OnTransform method)
+		have OnTransform("github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/text".OTransform) error
+		want OnTransform("github.com/Jeffail/leaps/lib/text".OTransform) error
+# github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/curator
+../github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/curator/curator.go:174:8: cannot use c.store (type "github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/store".Type) as type "github.com/Jeffail/leaps/lib/store".Type in argument to binder.New:
+	"github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/store".Type does not implement "github.com/Jeffail/leaps/lib/store".Type (wrong type for Create method)
+		have Create("github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/store".Document) error
+		want Create("github.com/Jeffail/leaps/lib/store".Document) error
+../github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/curator/curator.go:174:53: cannot use c.log (type "github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/util/service/log".Modular) as type "github.com/Jeffail/leaps/lib/util/service/log".Modular in argument to binder.New:
+	"github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/util/service/log".Modular does not implement "github.com/Jeffail/leaps/lib/util/service/log".Modular (wrong type for NewModule method)
+		have NewModule(string) "github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/util/service/log".Modular
+		want NewModule(string) "github.com/Jeffail/leaps/lib/util/service/log".Modular
+../github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/curator/curator.go:174:60: cannot use auditor (type "github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/audit".Auditor) as type "github.com/Jeffail/leaps/lib/audit".Auditor in argument to binder.New:
+	"github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/audit".Auditor does not implement "github.com/Jeffail/leaps/lib/audit".Auditor (wrong type for OnTransform method)
+		have OnTransform("github.com/skycoin/cx/vendor/github.com/Jeffail/leaps/lib/text".OTransform) error
+		want OnTransform("github.com/Jeffail/leaps/lib/text".OTransform) error
+FAIL:\tCouldn't clone into github.com/skycoin/cx
